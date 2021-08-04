@@ -1,0 +1,18 @@
+08-03 21:28:34 length_stats.action_length_stats 304:Plugin executed on: 'linux'
+08-03 21:28:34 length_stats.action_length_stats 305:Plugin executed with python version: '3.8.8 (default, Nov 10 2011, 15:00:00) \n[GCC 10.2.0]'
+08-03 21:28:34 length_stats.action_length_stats 306:KiCad build version: 5.1.10
+08-03 21:28:34 length_stats.action_length_stats 307:Length stats plugin version: 30 started
+08-03 21:28:34 STDERR 345:/home/lenovoy50/.kicad_plugins/length_stats/action_length_stats.py:55: wxPyDeprecationWarning: Call to deprecated item. Use SetSizeHints instead.
+08-03 21:28:34 STDERR 345:  self.SetSizeHintsSz(sz1, sz2)
+08-03 21:28:34 STDERR 345:/home/lenovoy50/.kicad_plugins/length_stats/action_length_stats.py:76: wxPyDeprecationWarning: Call to deprecated item. Use InsertItem instead.
+08-03 21:28:34 STDERR 345:  index = self.net_list.InsertStringItem(index_net, net)
+08-03 21:28:34 STDERR 345:/home/lenovoy50/.kicad_plugins/length_stats/action_length_stats.py:77: wxPyDeprecationWarning: Call to deprecated item. Use SetItem instead.
+08-03 21:28:34 STDERR 345:  self.net_list.SetStringItem(index, 1, "0.0")
+08-03 21:28:34 length_stats.action_length_stats 207:Sorting list
+08-03 21:28:34 STDERR 345:/home/lenovoy50/.kicad_plugins/length_stats/action_length_stats.py:242: wxPyDeprecationWarning: Call to deprecated item. Use InsertItem instead.
+08-03 21:28:34 STDERR 345:  index = self.net_list.InsertStringItem(index_net, net[0])
+08-03 21:28:34 STDERR 345:/home/lenovoy50/.kicad_plugins/length_stats/action_length_stats.py:243: wxPyDeprecationWarning: Call to deprecated item. Use SetItem instead.
+08-03 21:28:34 STDERR 345:  self.net_list.SetStringItem(index, 1, "%.2f" % net[1])
+08-03 21:28:34 length_stats.action_length_stats 95:Length stats gui initialized
+08-03 21:28:34 length_stats.action_length_stats 96:Nets for stats are;
+['GNDREF', '+5V']

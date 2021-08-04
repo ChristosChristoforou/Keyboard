@@ -1,0 +1,524 @@
+08-04 17:34:29 replicate_layout.action_replicate_layout 311:Plugin executed on: 'linux'
+08-04 17:34:29 replicate_layout.action_replicate_layout 312:Plugin executed with python version: '3.8.8 (default, Nov 10 2011, 15:00:00) \n[GCC 10.2.0]'
+08-04 17:34:29 replicate_layout.action_replicate_layout 313:KiCad build version: 5.1.10
+08-04 17:34:29 replicate_layout.action_replicate_layout 314:Replicate layout plugin version: 73 started
+08-04 17:34:29 replicate_layout.action_replicate_layout 327:All top level windows titles are:
+kicad 5.1.10 /home/lenovoy50/documents/kicad/keyboard/kyeboard.pro
+
+pcbnew — /home/lenovoy50/documents/kicad/keyboard/kyeboard.kicad_pcb
+
+
+replicate layout
+08-04 17:34:29 replicate_layout.action_replicate_layout 328:All top level windows objects are:
+ <wx._core.Frame object at 0x7feb0c8690d0>
+<wx._core.Frame object at 0x7feb0c869160>
+<wx._core.Frame object at 0x7feb0c8690d0>
+<wx._core.Frame object at 0x7feb0c869160>
+<wx._core.Frame object at 0x7feb0c8690d0>
+<replicate_layout.action_replicate_layout.ReplicateLayoutDialog object at 0x7feb0c9d3af0>
+08-04 17:34:29 replicate_layout.action_replicate_layout 351:Preparing replicator with SW70 as a reference
+08-04 17:34:29 replicate_layout.replicatelayout 215:getting project hierarchy from schematics
+08-04 17:34:29 replicate_layout.replicatelayout 217:Project hierarchy looks like:
+{'6111AC86': ['Sheet6111AC85', '/home/lenovoy50/Documents/Kicad/Keyboard/Power_LED.sch'], '61062638': ['Sheet61062637', '/home/lenovoy50/Documents/Kicad/Keyboard/Keyboard_Matrix.sch'], '6106B8FC': ['sheet6106B8F6', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106B98F': ['sheet6106B989', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106BA22': ['sheet6106BA1C', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106BB28': ['sheet6106BB22', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106BC6A': ['sheet6106BC64', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106BD1B': ['sheet6106BD15', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106C60B': ['sheet6106C5FF', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106C611': ['sheet6106C600', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106C617': ['sheet6106C601', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106C61D': ['sheet6106C602', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106C623': ['sheet6106C603', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106C629': ['sheet6106C604', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106C62F': ['sheet6106C605', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106CEFC': ['sheet6106CEF0', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106CF02': ['sheet6106CEF1', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106CF08': ['sheet6106CEF2', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106EFD0': ['sheet6106EFBA', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106EFD6': ['sheet6106EFBB', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106EFDC': ['sheet6106EFBC', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106EFE2': ['sheet6106EFBD', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106EFE8': ['sheet6106EFBE', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106EFEE': ['sheet6106EFBF', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106EFF4': ['sheet6106EFC0', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106EFFA': ['sheet6106EFC1', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106F000': ['sheet6106EFC2', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106F006': ['sheet6106EFC3', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106F00C': ['sheet6106EFC4', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106F012': ['sheet6106EFC5', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106F018': ['sheet6106EFC6', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106F01E': ['sheet6106EFC7', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106F024': ['sheet6106EFC8', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106F02A': ['sheet6106EFC9', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6106F030': ['sheet6106EFCA', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '610714EB': ['sheet610714D9', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '610714F1': ['sheet610714DA', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '610714F7': ['sheet610714DB', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '610714FD': ['sheet610714DC', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '61071503': ['sheet610714DD', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '61071509': ['sheet610714DE', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6107150F': ['sheet610714DF', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '61071515': ['sheet610714E0', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6107151B': ['sheet610714E1', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '61071521': ['sheet610714E2', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '61071527': ['sheet610714E3', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '6107152D': ['sheet610714E4', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '61071533': ['sheet610714E5', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '61074BB1': ['sheet61074B9E', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '61074BB7': ['sheet61074B9F', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '61074BBD': ['sheet61074BA0', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '61074BC3': ['sheet61074BA1', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '61074BC9': ['sheet61074BA2', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '61074BCF': ['sheet61074BA3', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '61074BD5': ['sheet61074BA4', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '61074BDB': ['sheet61074BA5', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '61074BE1': ['sheet61074BA6', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '61074BE7': ['sheet61074BA7', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '61074BED': ['sheet61074BA8', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '61074BF3': ['sheet61074BA9', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '61074BF9': ['sheet61074BAA', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '61074BFF': ['sheet61074BAB', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '610769B6': ['sheet610769A6', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '610769BC': ['sheet610769A7', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '610769C2': ['sheet610769A8', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '610769C8': ['sheet610769A9', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '610769CE': ['sheet610769AA', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '610769D4': ['sheet610769AB', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '610769DA': ['sheet610769AC', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '610769E0': ['sheet610769AD', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '610769E6': ['sheet610769AE', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '610769EC': ['sheet610769AF', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '610769F2': ['sheet610769B0', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch'], '61067811': ['sheet6106780B', '/home/lenovoy50/Documents/Kicad/Keyboard/Button.sch']}
+08-04 17:34:29 replicate_layout.replicatelayout 225:getting a list of all footprints on board
+08-04 17:34:29 replicate_layout.action_replicate_layout 377:source anchor footprint is 'SW70'
+Located on:['Sheet61062637', 'sheet610769AD']
+With filenames:['Keyboard_Matrix.sch', 'Button.sch']
+With sheet_id:['Sheet61062637', 'sheet610769AD']
+08-04 17:34:29 replicate_layout.action_replicate_layout 382:Corresponding footprints are 
+[('SW3', ['Sheet61062637', 'sheet6106B8F6']), ('SW4', ['Sheet61062637', 'sheet6106B989']), ('SW5', ['Sheet61062637', 'sheet6106BA1C']), ('SW6', ['Sheet61062637', 'sheet6106BB22']), ('SW7', ['Sheet61062637', 'sheet6106BC64']), ('SW8', ['Sheet61062637', 'sheet6106BD15']), ('SW9', ['Sheet61062637', 'sheet6106C5FF']), ('SW10', ['Sheet61062637', 'sheet6106C600']), ('SW11', ['Sheet61062637', 'sheet6106C601']), ('SW12', ['Sheet61062637', 'sheet6106C602']), ('SW13', ['Sheet61062637', 'sheet6106C603']), ('SW14', ['Sheet61062637', 'sheet6106C604']), ('SW15', ['Sheet61062637', 'sheet6106C605']), ('SW16', ['Sheet61062637', 'sheet6106CEF0']), ('SW17', ['Sheet61062637', 'sheet6106CEF1']), ('SW18', ['Sheet61062637', 'sheet6106CEF2']), ('SW19', ['Sheet61062637', 'sheet6106EFBA']), ('SW20', ['Sheet61062637', 'sheet6106EFBB']), ('SW21', ['Sheet61062637', 'sheet6106EFBC']), ('SW22', ['Sheet61062637', 'sheet6106EFBD']), ('SW23', ['Sheet61062637', 'sheet6106EFBE']), ('SW24', ['Sheet61062637', 'sheet6106EFBF']), ('SW25', ['Sheet61062637', 'sheet6106EFC0']), ('SW26', ['Sheet61062637', 'sheet6106EFC1']), ('SW27', ['Sheet61062637', 'sheet6106EFC2']), ('SW28', ['Sheet61062637', 'sheet6106EFC3']), ('SW29', ['Sheet61062637', 'sheet6106EFC4']), ('SW30', ['Sheet61062637', 'sheet6106EFC5']), ('SW31', ['Sheet61062637', 'sheet6106EFC6']), ('SW32', ['Sheet61062637', 'sheet6106EFC7']), ('SW33', ['Sheet61062637', 'sheet6106EFC8']), ('SW34', ['Sheet61062637', 'sheet6106EFC9']), ('SW35', ['Sheet61062637', 'sheet6106EFCA']), ('SW36', ['Sheet61062637', 'sheet610714D9']), ('SW37', ['Sheet61062637', 'sheet610714DA']), ('SW38', ['Sheet61062637', 'sheet610714DB']), ('SW39', ['Sheet61062637', 'sheet610714DC']), ('SW40', ['Sheet61062637', 'sheet610714DD']), ('SW41', ['Sheet61062637', 'sheet610714DE']), ('SW42', ['Sheet61062637', 'sheet610714DF']), ('SW43', ['Sheet61062637', 'sheet610714E0']), ('SW44', ['Sheet61062637', 'sheet610714E1']), ('SW45', ['Sheet61062637', 'sheet610714E2']), ('SW46', ['Sheet61062637', 'sheet610714E3']), ('SW47', ['Sheet61062637', 'sheet610714E4']), ('SW48', ['Sheet61062637', 'sheet610714E5']), ('SW49', ['Sheet61062637', 'sheet61074B9E']), ('SW50', ['Sheet61062637', 'sheet61074B9F']), ('SW51', ['Sheet61062637', 'sheet61074BA0']), ('SW52', ['Sheet61062637', 'sheet61074BA1']), ('SW53', ['Sheet61062637', 'sheet61074BA2']), ('SW54', ['Sheet61062637', 'sheet61074BA3']), ('SW55', ['Sheet61062637', 'sheet61074BA4']), ('SW56', ['Sheet61062637', 'sheet61074BA5']), ('SW57', ['Sheet61062637', 'sheet61074BA6']), ('SW58', ['Sheet61062637', 'sheet61074BA7']), ('SW59', ['Sheet61062637', 'sheet61074BA8']), ('SW60', ['Sheet61062637', 'sheet61074BA9']), ('SW61', ['Sheet61062637', 'sheet61074BAA']), ('SW62', ['Sheet61062637', 'sheet61074BAB']), ('SW63', ['Sheet61062637', 'sheet610769A6']), ('SW64', ['Sheet61062637', 'sheet610769A7']), ('SW65', ['Sheet61062637', 'sheet610769A8']), ('SW66', ['Sheet61062637', 'sheet610769A9']), ('SW67', ['Sheet61062637', 'sheet610769AA']), ('SW68', ['Sheet61062637', 'sheet610769AB']), ('SW69', ['Sheet61062637', 'sheet610769AC']), ('SW70', ['Sheet61062637', 'sheet610769AD']), ('SW71', ['Sheet61062637', 'sheet610769AE']), ('SW72', ['Sheet61062637', 'sheet610769AF']), ('SW73', ['Sheet61062637', 'sheet610769B0']), ('SW74', ['Sheet61062637', 'sheet6106780B'])]
+08-04 17:34:29 replicate_layout.action_replicate_layout 395:Showing dialog
+08-04 17:34:29 replicate_layout.action_replicate_layout 399:Pcbnew position: wx.Point(0, 27)
+08-04 17:34:29 replicate_layout.action_replicate_layout 405:Display 0: wx.Rect(0, 0, 1920, 1080)
+08-04 17:34:29 replicate_layout.action_replicate_layout 409:Toolbar position: wx.Point(1884, 165)
+08-04 17:34:29 replicate_layout.action_replicate_layout 416:Dialog position: wx.Point(1571, 165)
+08-04 17:34:29 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:'Sheet61062637', file:'Keyboard_Matrix.sch'
+08-04 17:34:29 replicate_layout.replicatelayout 256:Source sheet path up to the level:['Sheet61062637']
+08-04 17:34:29 replicate_layout.replicatelayout 260:Footprints on the sheets:
+['SW3', 'SW4', 'SW5', 'SW6', 'SW7', 'SW8', 'SW9', 'SW10', 'SW11', 'SW12', 'SW13', 'SW14', 'SW15', 'SW16', 'SW17', 'SW18', 'SW19', 'SW20', 'SW21', 'SW22', 'SW23', 'SW24', 'SW25', 'SW26', 'SW27', 'SW28', 'SW29', 'SW30', 'SW31', 'SW32', 'SW33', 'SW34', 'SW35', 'SW36', 'SW37', 'SW38', 'SW39', 'SW40', 'SW41', 'SW42', 'SW43', 'SW44', 'SW45', 'SW46', 'SW47', 'SW48', 'SW49', 'SW50', 'SW51', 'SW52', 'SW53', 'SW54', 'SW55', 'SW56', 'SW57', 'SW58', 'SW59', 'SW60', 'SW61', 'SW62', 'SW63', 'SW64', 'SW65', 'SW66', 'SW67', 'SW68', 'SW69', 'SW70', 'SW71', 'SW72', 'SW73', 'SW74']
+08-04 17:34:29 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+['/61062638/6106B8FC/6105FF18', '/61062638/6106B98F/6105FF18', '/61062638/6106BA22/6105FF18', '/61062638/6106BB28/6105FF18', '/61062638/6106BC6A/6105FF18', '/61062638/6106BD1B/6105FF18', '/61062638/6106C60B/6105FF18', '/61062638/6106C611/6105FF18', '/61062638/6106C617/6105FF18', '/61062638/6106C61D/6105FF18', '/61062638/6106C623/6105FF18', '/61062638/6106C629/6105FF18', '/61062638/6106C62F/6105FF18', '/61062638/6106CEFC/6105FF18', '/61062638/6106CF02/6105FF18', '/61062638/6106CF08/6105FF18', '/61062638/6106EFD0/6105FF18', '/61062638/6106EFD6/6105FF18', '/61062638/6106EFDC/6105FF18', '/61062638/6106EFE2/6105FF18', '/61062638/6106EFE8/6105FF18', '/61062638/6106EFEE/6105FF18', '/61062638/6106EFF4/6105FF18', '/61062638/6106EFFA/6105FF18', '/61062638/6106F000/6105FF18', '/61062638/6106F006/6105FF18', '/61062638/6106F00C/6105FF18', '/61062638/6106F012/6105FF18', '/61062638/6106F018/6105FF18', '/61062638/6106F01E/6105FF18', '/61062638/6106F024/6105FF18', '/61062638/6106F02A/6105FF18', '/61062638/6106F030/6105FF18', '/61062638/610714EB/6105FF18', '/61062638/610714F1/6105FF18', '/61062638/610714F7/6105FF18', '/61062638/610714FD/6105FF18', '/61062638/61071503/6105FF18', '/61062638/61071509/6105FF18', '/61062638/6107150F/6105FF18', '/61062638/61071515/6105FF18', '/61062638/6107151B/6105FF18', '/61062638/61071521/6105FF18', '/61062638/61071527/6105FF18', '/61062638/6107152D/6105FF18', '/61062638/61071533/6105FF18', '/61062638/61074BB1/6105FF18', '/61062638/61074BB7/6105FF18', '/61062638/61074BBD/6105FF18', '/61062638/61074BC3/6105FF18', '/61062638/61074BC9/6105FF18', '/61062638/61074BCF/6105FF18', '/61062638/61074BD5/6105FF18', '/61062638/61074BDB/6105FF18', '/61062638/61074BE1/6105FF18', '/61062638/61074BE7/6105FF18', '/61062638/61074BED/6105FF18', '/61062638/61074BF3/6105FF18', '/61062638/61074BF9/6105FF18', '/61062638/61074BFF/6105FF18', '/61062638/610769B6/6105FF18', '/61062638/610769BC/6105FF18', '/61062638/610769C2/6105FF18', '/61062638/610769C8/6105FF18', '/61062638/610769CE/6105FF18', '/61062638/610769D4/6105FF18', '/61062638/610769DA/6105FF18', '/61062638/610769E0/6105FF18', '/61062638/610769E6/6105FF18', '/61062638/610769EC/6105FF18', '/61062638/610769F2/6105FF18', '/61062638/61067811/6105FF18']
+08-04 17:34:29 replicate_layout.replicatelayout 279:All sheets to replicate:
+[['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637'], ['Sheet61062637']]
+08-04 17:34:29 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[['Sheet61062637']]
+08-04 17:34:29 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[]
+08-04 17:34:33 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:'sheet610769AD', file:'Button.sch'
+08-04 17:34:33 replicate_layout.replicatelayout 256:Source sheet path up to the level:['Sheet61062637', 'sheet610769AD']
+08-04 17:34:33 replicate_layout.replicatelayout 260:Footprints on the sheets:
+['SW3', 'SW4', 'SW5', 'SW6', 'SW7', 'SW8', 'SW9', 'SW10', 'SW11', 'SW12', 'SW13', 'SW14', 'SW15', 'SW16', 'SW17', 'SW18', 'SW19', 'SW20', 'SW21', 'SW22', 'SW23', 'SW24', 'SW25', 'SW26', 'SW27', 'SW28', 'SW29', 'SW30', 'SW31', 'SW32', 'SW33', 'SW34', 'SW35', 'SW36', 'SW37', 'SW38', 'SW39', 'SW40', 'SW41', 'SW42', 'SW43', 'SW44', 'SW45', 'SW46', 'SW47', 'SW48', 'SW49', 'SW50', 'SW51', 'SW52', 'SW53', 'SW54', 'SW55', 'SW56', 'SW57', 'SW58', 'SW59', 'SW60', 'SW61', 'SW62', 'SW63', 'SW64', 'SW65', 'SW66', 'SW67', 'SW68', 'SW69', 'SW70', 'SW71', 'SW72', 'SW73', 'SW74']
+08-04 17:34:33 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+['/61062638/6106B8FC/6105FF18', '/61062638/6106B98F/6105FF18', '/61062638/6106BA22/6105FF18', '/61062638/6106BB28/6105FF18', '/61062638/6106BC6A/6105FF18', '/61062638/6106BD1B/6105FF18', '/61062638/6106C60B/6105FF18', '/61062638/6106C611/6105FF18', '/61062638/6106C617/6105FF18', '/61062638/6106C61D/6105FF18', '/61062638/6106C623/6105FF18', '/61062638/6106C629/6105FF18', '/61062638/6106C62F/6105FF18', '/61062638/6106CEFC/6105FF18', '/61062638/6106CF02/6105FF18', '/61062638/6106CF08/6105FF18', '/61062638/6106EFD0/6105FF18', '/61062638/6106EFD6/6105FF18', '/61062638/6106EFDC/6105FF18', '/61062638/6106EFE2/6105FF18', '/61062638/6106EFE8/6105FF18', '/61062638/6106EFEE/6105FF18', '/61062638/6106EFF4/6105FF18', '/61062638/6106EFFA/6105FF18', '/61062638/6106F000/6105FF18', '/61062638/6106F006/6105FF18', '/61062638/6106F00C/6105FF18', '/61062638/6106F012/6105FF18', '/61062638/6106F018/6105FF18', '/61062638/6106F01E/6105FF18', '/61062638/6106F024/6105FF18', '/61062638/6106F02A/6105FF18', '/61062638/6106F030/6105FF18', '/61062638/610714EB/6105FF18', '/61062638/610714F1/6105FF18', '/61062638/610714F7/6105FF18', '/61062638/610714FD/6105FF18', '/61062638/61071503/6105FF18', '/61062638/61071509/6105FF18', '/61062638/6107150F/6105FF18', '/61062638/61071515/6105FF18', '/61062638/6107151B/6105FF18', '/61062638/61071521/6105FF18', '/61062638/61071527/6105FF18', '/61062638/6107152D/6105FF18', '/61062638/61071533/6105FF18', '/61062638/61074BB1/6105FF18', '/61062638/61074BB7/6105FF18', '/61062638/61074BBD/6105FF18', '/61062638/61074BC3/6105FF18', '/61062638/61074BC9/6105FF18', '/61062638/61074BCF/6105FF18', '/61062638/61074BD5/6105FF18', '/61062638/61074BDB/6105FF18', '/61062638/61074BE1/6105FF18', '/61062638/61074BE7/6105FF18', '/61062638/61074BED/6105FF18', '/61062638/61074BF3/6105FF18', '/61062638/61074BF9/6105FF18', '/61062638/61074BFF/6105FF18', '/61062638/610769B6/6105FF18', '/61062638/610769BC/6105FF18', '/61062638/610769C2/6105FF18', '/61062638/610769C8/6105FF18', '/61062638/610769CE/6105FF18', '/61062638/610769D4/6105FF18', '/61062638/610769DA/6105FF18', '/61062638/610769E0/6105FF18', '/61062638/610769E6/6105FF18', '/61062638/610769EC/6105FF18', '/61062638/610769F2/6105FF18', '/61062638/61067811/6105FF18']
+08-04 17:34:33 replicate_layout.replicatelayout 279:All sheets to replicate:
+[['Sheet61062637', 'sheet6106B8F6'], ['Sheet61062637', 'sheet6106B989'], ['Sheet61062637', 'sheet6106BA1C'], ['Sheet61062637', 'sheet6106BB22'], ['Sheet61062637', 'sheet6106BC64'], ['Sheet61062637', 'sheet6106BD15'], ['Sheet61062637', 'sheet6106C5FF'], ['Sheet61062637', 'sheet6106C600'], ['Sheet61062637', 'sheet6106C601'], ['Sheet61062637', 'sheet6106C602'], ['Sheet61062637', 'sheet6106C603'], ['Sheet61062637', 'sheet6106C604'], ['Sheet61062637', 'sheet6106C605'], ['Sheet61062637', 'sheet6106CEF0'], ['Sheet61062637', 'sheet6106CEF1'], ['Sheet61062637', 'sheet6106CEF2'], ['Sheet61062637', 'sheet6106EFBA'], ['Sheet61062637', 'sheet6106EFBB'], ['Sheet61062637', 'sheet6106EFBC'], ['Sheet61062637', 'sheet6106EFBD'], ['Sheet61062637', 'sheet6106EFBE'], ['Sheet61062637', 'sheet6106EFBF'], ['Sheet61062637', 'sheet6106EFC0'], ['Sheet61062637', 'sheet6106EFC1'], ['Sheet61062637', 'sheet6106EFC2'], ['Sheet61062637', 'sheet6106EFC3'], ['Sheet61062637', 'sheet6106EFC4'], ['Sheet61062637', 'sheet6106EFC5'], ['Sheet61062637', 'sheet6106EFC6'], ['Sheet61062637', 'sheet6106EFC7'], ['Sheet61062637', 'sheet6106EFC8'], ['Sheet61062637', 'sheet6106EFC9'], ['Sheet61062637', 'sheet6106EFCA'], ['Sheet61062637', 'sheet610714D9'], ['Sheet61062637', 'sheet610714DA'], ['Sheet61062637', 'sheet610714DB'], ['Sheet61062637', 'sheet610714DC'], ['Sheet61062637', 'sheet610714DD'], ['Sheet61062637', 'sheet610714DE'], ['Sheet61062637', 'sheet610714DF'], ['Sheet61062637', 'sheet610714E0'], ['Sheet61062637', 'sheet610714E1'], ['Sheet61062637', 'sheet610714E2'], ['Sheet61062637', 'sheet610714E3'], ['Sheet61062637', 'sheet610714E4'], ['Sheet61062637', 'sheet610714E5'], ['Sheet61062637', 'sheet61074B9E'], ['Sheet61062637', 'sheet61074B9F'], ['Sheet61062637', 'sheet61074BA0'], ['Sheet61062637', 'sheet61074BA1'], ['Sheet61062637', 'sheet61074BA2'], ['Sheet61062637', 'sheet61074BA3'], ['Sheet61062637', 'sheet61074BA4'], ['Sheet61062637', 'sheet61074BA5'], ['Sheet61062637', 'sheet61074BA6'], ['Sheet61062637', 'sheet61074BA7'], ['Sheet61062637', 'sheet61074BA8'], ['Sheet61062637', 'sheet61074BA9'], ['Sheet61062637', 'sheet61074BAA'], ['Sheet61062637', 'sheet61074BAB'], ['Sheet61062637', 'sheet610769A6'], ['Sheet61062637', 'sheet610769A7'], ['Sheet61062637', 'sheet610769A8'], ['Sheet61062637', 'sheet610769A9'], ['Sheet61062637', 'sheet610769AA'], ['Sheet61062637', 'sheet610769AB'], ['Sheet61062637', 'sheet610769AC'], ['Sheet61062637', 'sheet610769AD'], ['Sheet61062637', 'sheet610769AE'], ['Sheet61062637', 'sheet610769AF'], ['Sheet61062637', 'sheet610769B0'], ['Sheet61062637', 'sheet6106780B']]
+08-04 17:34:33 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[['Sheet61062637', 'sheet6106780B'], ['Sheet61062637', 'sheet6106B8F6'], ['Sheet61062637', 'sheet6106B989'], ['Sheet61062637', 'sheet6106BA1C'], ['Sheet61062637', 'sheet6106BB22'], ['Sheet61062637', 'sheet6106BC64'], ['Sheet61062637', 'sheet6106BD15'], ['Sheet61062637', 'sheet6106C5FF'], ['Sheet61062637', 'sheet6106C600'], ['Sheet61062637', 'sheet6106C601'], ['Sheet61062637', 'sheet6106C602'], ['Sheet61062637', 'sheet6106C603'], ['Sheet61062637', 'sheet6106C604'], ['Sheet61062637', 'sheet6106C605'], ['Sheet61062637', 'sheet6106CEF0'], ['Sheet61062637', 'sheet6106CEF1'], ['Sheet61062637', 'sheet6106CEF2'], ['Sheet61062637', 'sheet6106EFBA'], ['Sheet61062637', 'sheet6106EFBB'], ['Sheet61062637', 'sheet6106EFBC'], ['Sheet61062637', 'sheet6106EFBD'], ['Sheet61062637', 'sheet6106EFBE'], ['Sheet61062637', 'sheet6106EFBF'], ['Sheet61062637', 'sheet6106EFC0'], ['Sheet61062637', 'sheet6106EFC1'], ['Sheet61062637', 'sheet6106EFC2'], ['Sheet61062637', 'sheet6106EFC3'], ['Sheet61062637', 'sheet6106EFC4'], ['Sheet61062637', 'sheet6106EFC5'], ['Sheet61062637', 'sheet6106EFC6'], ['Sheet61062637', 'sheet6106EFC7'], ['Sheet61062637', 'sheet6106EFC8'], ['Sheet61062637', 'sheet6106EFC9'], ['Sheet61062637', 'sheet6106EFCA'], ['Sheet61062637', 'sheet610714D9'], ['Sheet61062637', 'sheet610714DA'], ['Sheet61062637', 'sheet610714DB'], ['Sheet61062637', 'sheet610714DC'], ['Sheet61062637', 'sheet610714DD'], ['Sheet61062637', 'sheet610714DE'], ['Sheet61062637', 'sheet610714DF'], ['Sheet61062637', 'sheet610714E0'], ['Sheet61062637', 'sheet610714E1'], ['Sheet61062637', 'sheet610714E2'], ['Sheet61062637', 'sheet610714E3'], ['Sheet61062637', 'sheet610714E4'], ['Sheet61062637', 'sheet610714E5'], ['Sheet61062637', 'sheet61074B9E'], ['Sheet61062637', 'sheet61074B9F'], ['Sheet61062637', 'sheet61074BA0'], ['Sheet61062637', 'sheet61074BA1'], ['Sheet61062637', 'sheet61074BA2'], ['Sheet61062637', 'sheet61074BA3'], ['Sheet61062637', 'sheet61074BA4'], ['Sheet61062637', 'sheet61074BA5'], ['Sheet61062637', 'sheet61074BA6'], ['Sheet61062637', 'sheet61074BA7'], ['Sheet61062637', 'sheet61074BA8'], ['Sheet61062637', 'sheet61074BA9'], ['Sheet61062637', 'sheet61074BAA'], ['Sheet61062637', 'sheet61074BAB'], ['Sheet61062637', 'sheet610769A6'], ['Sheet61062637', 'sheet610769A7'], ['Sheet61062637', 'sheet610769A8'], ['Sheet61062637', 'sheet610769A9'], ['Sheet61062637', 'sheet610769AA'], ['Sheet61062637', 'sheet610769AB'], ['Sheet61062637', 'sheet610769AC'], ['Sheet61062637', 'sheet610769AD'], ['Sheet61062637', 'sheet610769AE'], ['Sheet61062637', 'sheet610769AF'], ['Sheet61062637', 'sheet610769B0']]
+08-04 17:34:33 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[['Sheet61062637', 'sheet6106780B'], ['Sheet61062637', 'sheet6106B8F6'], ['Sheet61062637', 'sheet6106B989'], ['Sheet61062637', 'sheet6106BA1C'], ['Sheet61062637', 'sheet6106BB22'], ['Sheet61062637', 'sheet6106BC64'], ['Sheet61062637', 'sheet6106BD15'], ['Sheet61062637', 'sheet6106C5FF'], ['Sheet61062637', 'sheet6106C600'], ['Sheet61062637', 'sheet6106C601'], ['Sheet61062637', 'sheet6106C602'], ['Sheet61062637', 'sheet6106C603'], ['Sheet61062637', 'sheet6106C604'], ['Sheet61062637', 'sheet6106C605'], ['Sheet61062637', 'sheet6106CEF0'], ['Sheet61062637', 'sheet6106CEF1'], ['Sheet61062637', 'sheet6106CEF2'], ['Sheet61062637', 'sheet6106EFBA'], ['Sheet61062637', 'sheet6106EFBB'], ['Sheet61062637', 'sheet6106EFBC'], ['Sheet61062637', 'sheet6106EFBD'], ['Sheet61062637', 'sheet6106EFBE'], ['Sheet61062637', 'sheet6106EFBF'], ['Sheet61062637', 'sheet6106EFC0'], ['Sheet61062637', 'sheet6106EFC1'], ['Sheet61062637', 'sheet6106EFC2'], ['Sheet61062637', 'sheet6106EFC3'], ['Sheet61062637', 'sheet6106EFC4'], ['Sheet61062637', 'sheet6106EFC5'], ['Sheet61062637', 'sheet6106EFC6'], ['Sheet61062637', 'sheet6106EFC7'], ['Sheet61062637', 'sheet6106EFC8'], ['Sheet61062637', 'sheet6106EFC9'], ['Sheet61062637', 'sheet6106EFCA'], ['Sheet61062637', 'sheet610714D9'], ['Sheet61062637', 'sheet610714DA'], ['Sheet61062637', 'sheet610714DB'], ['Sheet61062637', 'sheet610714DC'], ['Sheet61062637', 'sheet610714DD'], ['Sheet61062637', 'sheet610714DE'], ['Sheet61062637', 'sheet610714DF'], ['Sheet61062637', 'sheet610714E0'], ['Sheet61062637', 'sheet610714E1'], ['Sheet61062637', 'sheet610714E2'], ['Sheet61062637', 'sheet610714E3'], ['Sheet61062637', 'sheet610714E4'], ['Sheet61062637', 'sheet610714E5'], ['Sheet61062637', 'sheet61074B9E'], ['Sheet61062637', 'sheet61074B9F'], ['Sheet61062637', 'sheet61074BA0'], ['Sheet61062637', 'sheet61074BA1'], ['Sheet61062637', 'sheet61074BA2'], ['Sheet61062637', 'sheet61074BA3'], ['Sheet61062637', 'sheet61074BA4'], ['Sheet61062637', 'sheet61074BA5'], ['Sheet61062637', 'sheet61074BA6'], ['Sheet61062637', 'sheet61074BA7'], ['Sheet61062637', 'sheet61074BA8'], ['Sheet61062637', 'sheet61074BA9'], ['Sheet61062637', 'sheet61074BAA'], ['Sheet61062637', 'sheet61074BAB'], ['Sheet61062637', 'sheet610769A6'], ['Sheet61062637', 'sheet610769A7'], ['Sheet61062637', 'sheet610769A8'], ['Sheet61062637', 'sheet610769A9'], ['Sheet61062637', 'sheet610769AA'], ['Sheet61062637', 'sheet610769AB'], ['Sheet61062637', 'sheet610769AC'], ['Sheet61062637', 'sheet610769AE'], ['Sheet61062637', 'sheet610769AF'], ['Sheet61062637', 'sheet610769B0']]
+08-04 17:34:46 replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:'sheet610769AD', file:'Button.sch'
+08-04 17:34:46 replicate_layout.replicatelayout 256:Source sheet path up to the level:['Sheet61062637', 'sheet610769AD']
+08-04 17:34:46 replicate_layout.replicatelayout 260:Footprints on the sheets:
+['SW3', 'SW4', 'SW5', 'SW6', 'SW7', 'SW8', 'SW9', 'SW10', 'SW11', 'SW12', 'SW13', 'SW14', 'SW15', 'SW16', 'SW17', 'SW18', 'SW19', 'SW20', 'SW21', 'SW22', 'SW23', 'SW24', 'SW25', 'SW26', 'SW27', 'SW28', 'SW29', 'SW30', 'SW31', 'SW32', 'SW33', 'SW34', 'SW35', 'SW36', 'SW37', 'SW38', 'SW39', 'SW40', 'SW41', 'SW42', 'SW43', 'SW44', 'SW45', 'SW46', 'SW47', 'SW48', 'SW49', 'SW50', 'SW51', 'SW52', 'SW53', 'SW54', 'SW55', 'SW56', 'SW57', 'SW58', 'SW59', 'SW60', 'SW61', 'SW62', 'SW63', 'SW64', 'SW65', 'SW66', 'SW67', 'SW68', 'SW69', 'SW70', 'SW71', 'SW72', 'SW73', 'SW74']
+08-04 17:34:46 replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+['/61062638/6106B8FC/6105FF18', '/61062638/6106B98F/6105FF18', '/61062638/6106BA22/6105FF18', '/61062638/6106BB28/6105FF18', '/61062638/6106BC6A/6105FF18', '/61062638/6106BD1B/6105FF18', '/61062638/6106C60B/6105FF18', '/61062638/6106C611/6105FF18', '/61062638/6106C617/6105FF18', '/61062638/6106C61D/6105FF18', '/61062638/6106C623/6105FF18', '/61062638/6106C629/6105FF18', '/61062638/6106C62F/6105FF18', '/61062638/6106CEFC/6105FF18', '/61062638/6106CF02/6105FF18', '/61062638/6106CF08/6105FF18', '/61062638/6106EFD0/6105FF18', '/61062638/6106EFD6/6105FF18', '/61062638/6106EFDC/6105FF18', '/61062638/6106EFE2/6105FF18', '/61062638/6106EFE8/6105FF18', '/61062638/6106EFEE/6105FF18', '/61062638/6106EFF4/6105FF18', '/61062638/6106EFFA/6105FF18', '/61062638/6106F000/6105FF18', '/61062638/6106F006/6105FF18', '/61062638/6106F00C/6105FF18', '/61062638/6106F012/6105FF18', '/61062638/6106F018/6105FF18', '/61062638/6106F01E/6105FF18', '/61062638/6106F024/6105FF18', '/61062638/6106F02A/6105FF18', '/61062638/6106F030/6105FF18', '/61062638/610714EB/6105FF18', '/61062638/610714F1/6105FF18', '/61062638/610714F7/6105FF18', '/61062638/610714FD/6105FF18', '/61062638/61071503/6105FF18', '/61062638/61071509/6105FF18', '/61062638/6107150F/6105FF18', '/61062638/61071515/6105FF18', '/61062638/6107151B/6105FF18', '/61062638/61071521/6105FF18', '/61062638/61071527/6105FF18', '/61062638/6107152D/6105FF18', '/61062638/61071533/6105FF18', '/61062638/61074BB1/6105FF18', '/61062638/61074BB7/6105FF18', '/61062638/61074BBD/6105FF18', '/61062638/61074BC3/6105FF18', '/61062638/61074BC9/6105FF18', '/61062638/61074BCF/6105FF18', '/61062638/61074BD5/6105FF18', '/61062638/61074BDB/6105FF18', '/61062638/61074BE1/6105FF18', '/61062638/61074BE7/6105FF18', '/61062638/61074BED/6105FF18', '/61062638/61074BF3/6105FF18', '/61062638/61074BF9/6105FF18', '/61062638/61074BFF/6105FF18', '/61062638/610769B6/6105FF18', '/61062638/610769BC/6105FF18', '/61062638/610769C2/6105FF18', '/61062638/610769C8/6105FF18', '/61062638/610769CE/6105FF18', '/61062638/610769D4/6105FF18', '/61062638/610769DA/6105FF18', '/61062638/610769E0/6105FF18', '/61062638/610769E6/6105FF18', '/61062638/610769EC/6105FF18', '/61062638/610769F2/6105FF18', '/61062638/61067811/6105FF18']
+08-04 17:34:46 replicate_layout.replicatelayout 279:All sheets to replicate:
+[['Sheet61062637', 'sheet6106B8F6'], ['Sheet61062637', 'sheet6106B989'], ['Sheet61062637', 'sheet6106BA1C'], ['Sheet61062637', 'sheet6106BB22'], ['Sheet61062637', 'sheet6106BC64'], ['Sheet61062637', 'sheet6106BD15'], ['Sheet61062637', 'sheet6106C5FF'], ['Sheet61062637', 'sheet6106C600'], ['Sheet61062637', 'sheet6106C601'], ['Sheet61062637', 'sheet6106C602'], ['Sheet61062637', 'sheet6106C603'], ['Sheet61062637', 'sheet6106C604'], ['Sheet61062637', 'sheet6106C605'], ['Sheet61062637', 'sheet6106CEF0'], ['Sheet61062637', 'sheet6106CEF1'], ['Sheet61062637', 'sheet6106CEF2'], ['Sheet61062637', 'sheet6106EFBA'], ['Sheet61062637', 'sheet6106EFBB'], ['Sheet61062637', 'sheet6106EFBC'], ['Sheet61062637', 'sheet6106EFBD'], ['Sheet61062637', 'sheet6106EFBE'], ['Sheet61062637', 'sheet6106EFBF'], ['Sheet61062637', 'sheet6106EFC0'], ['Sheet61062637', 'sheet6106EFC1'], ['Sheet61062637', 'sheet6106EFC2'], ['Sheet61062637', 'sheet6106EFC3'], ['Sheet61062637', 'sheet6106EFC4'], ['Sheet61062637', 'sheet6106EFC5'], ['Sheet61062637', 'sheet6106EFC6'], ['Sheet61062637', 'sheet6106EFC7'], ['Sheet61062637', 'sheet6106EFC8'], ['Sheet61062637', 'sheet6106EFC9'], ['Sheet61062637', 'sheet6106EFCA'], ['Sheet61062637', 'sheet610714D9'], ['Sheet61062637', 'sheet610714DA'], ['Sheet61062637', 'sheet610714DB'], ['Sheet61062637', 'sheet610714DC'], ['Sheet61062637', 'sheet610714DD'], ['Sheet61062637', 'sheet610714DE'], ['Sheet61062637', 'sheet610714DF'], ['Sheet61062637', 'sheet610714E0'], ['Sheet61062637', 'sheet610714E1'], ['Sheet61062637', 'sheet610714E2'], ['Sheet61062637', 'sheet610714E3'], ['Sheet61062637', 'sheet610714E4'], ['Sheet61062637', 'sheet610714E5'], ['Sheet61062637', 'sheet61074B9E'], ['Sheet61062637', 'sheet61074B9F'], ['Sheet61062637', 'sheet61074BA0'], ['Sheet61062637', 'sheet61074BA1'], ['Sheet61062637', 'sheet61074BA2'], ['Sheet61062637', 'sheet61074BA3'], ['Sheet61062637', 'sheet61074BA4'], ['Sheet61062637', 'sheet61074BA5'], ['Sheet61062637', 'sheet61074BA6'], ['Sheet61062637', 'sheet61074BA7'], ['Sheet61062637', 'sheet61074BA8'], ['Sheet61062637', 'sheet61074BA9'], ['Sheet61062637', 'sheet61074BAA'], ['Sheet61062637', 'sheet61074BAB'], ['Sheet61062637', 'sheet610769A6'], ['Sheet61062637', 'sheet610769A7'], ['Sheet61062637', 'sheet610769A8'], ['Sheet61062637', 'sheet610769A9'], ['Sheet61062637', 'sheet610769AA'], ['Sheet61062637', 'sheet610769AB'], ['Sheet61062637', 'sheet610769AC'], ['Sheet61062637', 'sheet610769AD'], ['Sheet61062637', 'sheet610769AE'], ['Sheet61062637', 'sheet610769AF'], ['Sheet61062637', 'sheet610769B0'], ['Sheet61062637', 'sheet6106780B']]
+08-04 17:34:46 replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[['Sheet61062637', 'sheet6106780B'], ['Sheet61062637', 'sheet6106B8F6'], ['Sheet61062637', 'sheet6106B989'], ['Sheet61062637', 'sheet6106BA1C'], ['Sheet61062637', 'sheet6106BB22'], ['Sheet61062637', 'sheet6106BC64'], ['Sheet61062637', 'sheet6106BD15'], ['Sheet61062637', 'sheet6106C5FF'], ['Sheet61062637', 'sheet6106C600'], ['Sheet61062637', 'sheet6106C601'], ['Sheet61062637', 'sheet6106C602'], ['Sheet61062637', 'sheet6106C603'], ['Sheet61062637', 'sheet6106C604'], ['Sheet61062637', 'sheet6106C605'], ['Sheet61062637', 'sheet6106CEF0'], ['Sheet61062637', 'sheet6106CEF1'], ['Sheet61062637', 'sheet6106CEF2'], ['Sheet61062637', 'sheet6106EFBA'], ['Sheet61062637', 'sheet6106EFBB'], ['Sheet61062637', 'sheet6106EFBC'], ['Sheet61062637', 'sheet6106EFBD'], ['Sheet61062637', 'sheet6106EFBE'], ['Sheet61062637', 'sheet6106EFBF'], ['Sheet61062637', 'sheet6106EFC0'], ['Sheet61062637', 'sheet6106EFC1'], ['Sheet61062637', 'sheet6106EFC2'], ['Sheet61062637', 'sheet6106EFC3'], ['Sheet61062637', 'sheet6106EFC4'], ['Sheet61062637', 'sheet6106EFC5'], ['Sheet61062637', 'sheet6106EFC6'], ['Sheet61062637', 'sheet6106EFC7'], ['Sheet61062637', 'sheet6106EFC8'], ['Sheet61062637', 'sheet6106EFC9'], ['Sheet61062637', 'sheet6106EFCA'], ['Sheet61062637', 'sheet610714D9'], ['Sheet61062637', 'sheet610714DA'], ['Sheet61062637', 'sheet610714DB'], ['Sheet61062637', 'sheet610714DC'], ['Sheet61062637', 'sheet610714DD'], ['Sheet61062637', 'sheet610714DE'], ['Sheet61062637', 'sheet610714DF'], ['Sheet61062637', 'sheet610714E0'], ['Sheet61062637', 'sheet610714E1'], ['Sheet61062637', 'sheet610714E2'], ['Sheet61062637', 'sheet610714E3'], ['Sheet61062637', 'sheet610714E4'], ['Sheet61062637', 'sheet610714E5'], ['Sheet61062637', 'sheet61074B9E'], ['Sheet61062637', 'sheet61074B9F'], ['Sheet61062637', 'sheet61074BA0'], ['Sheet61062637', 'sheet61074BA1'], ['Sheet61062637', 'sheet61074BA2'], ['Sheet61062637', 'sheet61074BA3'], ['Sheet61062637', 'sheet61074BA4'], ['Sheet61062637', 'sheet61074BA5'], ['Sheet61062637', 'sheet61074BA6'], ['Sheet61062637', 'sheet61074BA7'], ['Sheet61062637', 'sheet61074BA8'], ['Sheet61062637', 'sheet61074BA9'], ['Sheet61062637', 'sheet61074BAA'], ['Sheet61062637', 'sheet61074BAB'], ['Sheet61062637', 'sheet610769A6'], ['Sheet61062637', 'sheet610769A7'], ['Sheet61062637', 'sheet610769A8'], ['Sheet61062637', 'sheet610769A9'], ['Sheet61062637', 'sheet610769AA'], ['Sheet61062637', 'sheet610769AB'], ['Sheet61062637', 'sheet610769AC'], ['Sheet61062637', 'sheet610769AD'], ['Sheet61062637', 'sheet610769AE'], ['Sheet61062637', 'sheet610769AF'], ['Sheet61062637', 'sheet610769B0']]
+08-04 17:34:46 replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[['Sheet61062637', 'sheet6106780B'], ['Sheet61062637', 'sheet6106B8F6'], ['Sheet61062637', 'sheet6106B989'], ['Sheet61062637', 'sheet6106BA1C'], ['Sheet61062637', 'sheet6106BB22'], ['Sheet61062637', 'sheet6106BC64'], ['Sheet61062637', 'sheet6106BD15'], ['Sheet61062637', 'sheet6106C5FF'], ['Sheet61062637', 'sheet6106C600'], ['Sheet61062637', 'sheet6106C601'], ['Sheet61062637', 'sheet6106C602'], ['Sheet61062637', 'sheet6106C603'], ['Sheet61062637', 'sheet6106C604'], ['Sheet61062637', 'sheet6106C605'], ['Sheet61062637', 'sheet6106CEF0'], ['Sheet61062637', 'sheet6106CEF1'], ['Sheet61062637', 'sheet6106CEF2'], ['Sheet61062637', 'sheet6106EFBA'], ['Sheet61062637', 'sheet6106EFBB'], ['Sheet61062637', 'sheet6106EFBC'], ['Sheet61062637', 'sheet6106EFBD'], ['Sheet61062637', 'sheet6106EFBE'], ['Sheet61062637', 'sheet6106EFBF'], ['Sheet61062637', 'sheet6106EFC0'], ['Sheet61062637', 'sheet6106EFC1'], ['Sheet61062637', 'sheet6106EFC2'], ['Sheet61062637', 'sheet6106EFC3'], ['Sheet61062637', 'sheet6106EFC4'], ['Sheet61062637', 'sheet6106EFC5'], ['Sheet61062637', 'sheet6106EFC6'], ['Sheet61062637', 'sheet6106EFC7'], ['Sheet61062637', 'sheet6106EFC8'], ['Sheet61062637', 'sheet6106EFC9'], ['Sheet61062637', 'sheet6106EFCA'], ['Sheet61062637', 'sheet610714D9'], ['Sheet61062637', 'sheet610714DA'], ['Sheet61062637', 'sheet610714DB'], ['Sheet61062637', 'sheet610714DC'], ['Sheet61062637', 'sheet610714DD'], ['Sheet61062637', 'sheet610714DE'], ['Sheet61062637', 'sheet610714DF'], ['Sheet61062637', 'sheet610714E0'], ['Sheet61062637', 'sheet610714E1'], ['Sheet61062637', 'sheet610714E2'], ['Sheet61062637', 'sheet610714E3'], ['Sheet61062637', 'sheet610714E4'], ['Sheet61062637', 'sheet610714E5'], ['Sheet61062637', 'sheet61074B9E'], ['Sheet61062637', 'sheet61074B9F'], ['Sheet61062637', 'sheet61074BA0'], ['Sheet61062637', 'sheet61074BA1'], ['Sheet61062637', 'sheet61074BA2'], ['Sheet61062637', 'sheet61074BA3'], ['Sheet61062637', 'sheet61074BA4'], ['Sheet61062637', 'sheet61074BA5'], ['Sheet61062637', 'sheet61074BA6'], ['Sheet61062637', 'sheet61074BA7'], ['Sheet61062637', 'sheet61074BA8'], ['Sheet61062637', 'sheet61074BA9'], ['Sheet61062637', 'sheet61074BAA'], ['Sheet61062637', 'sheet61074BAB'], ['Sheet61062637', 'sheet610769A6'], ['Sheet61062637', 'sheet610769A7'], ['Sheet61062637', 'sheet610769A8'], ['Sheet61062637', 'sheet610769A9'], ['Sheet61062637', 'sheet610769AA'], ['Sheet61062637', 'sheet610769AB'], ['Sheet61062637', 'sheet610769AC'], ['Sheet61062637', 'sheet610769AE'], ['Sheet61062637', 'sheet610769AF'], ['Sheet61062637', 'sheet610769B0']]
+08-04 17:34:46 replicate_layout.action_replicate_layout 185:Replicating layout
+08-04 17:34:46 replicate_layout.replicatelayout 991:Starting replication of sheets: [['Sheet61062637', 'sheet6106780B'], ['Sheet61062637', 'sheet6106B8F6'], ['Sheet61062637', 'sheet6106B989'], ['Sheet61062637', 'sheet6106BA1C'], ['Sheet61062637', 'sheet6106BB22'], ['Sheet61062637', 'sheet6106BC64'], ['Sheet61062637', 'sheet6106BD15'], ['Sheet61062637', 'sheet6106C5FF'], ['Sheet61062637', 'sheet6106C600'], ['Sheet61062637', 'sheet6106C601'], ['Sheet61062637', 'sheet6106C602'], ['Sheet61062637', 'sheet6106C603'], ['Sheet61062637', 'sheet6106C604'], ['Sheet61062637', 'sheet6106C605'], ['Sheet61062637', 'sheet6106CEF0'], ['Sheet61062637', 'sheet6106CEF1'], ['Sheet61062637', 'sheet6106CEF2'], ['Sheet61062637', 'sheet6106EFBA'], ['Sheet61062637', 'sheet6106EFBB'], ['Sheet61062637', 'sheet6106EFBC'], ['Sheet61062637', 'sheet6106EFBD'], ['Sheet61062637', 'sheet6106EFBE'], ['Sheet61062637', 'sheet6106EFBF'], ['Sheet61062637', 'sheet6106EFC0'], ['Sheet61062637', 'sheet6106EFC1'], ['Sheet61062637', 'sheet6106EFC2'], ['Sheet61062637', 'sheet6106EFC3'], ['Sheet61062637', 'sheet6106EFC4'], ['Sheet61062637', 'sheet6106EFC5'], ['Sheet61062637', 'sheet6106EFC6'], ['Sheet61062637', 'sheet6106EFC7'], ['Sheet61062637', 'sheet6106EFC8'], ['Sheet61062637', 'sheet6106EFC9'], ['Sheet61062637', 'sheet6106EFCA'], ['Sheet61062637', 'sheet610714D9'], ['Sheet61062637', 'sheet610714DA'], ['Sheet61062637', 'sheet610714DB'], ['Sheet61062637', 'sheet610714DC'], ['Sheet61062637', 'sheet610714DD'], ['Sheet61062637', 'sheet610714DE'], ['Sheet61062637', 'sheet610714DF'], ['Sheet61062637', 'sheet610714E0'], ['Sheet61062637', 'sheet610714E1'], ['Sheet61062637', 'sheet610714E2'], ['Sheet61062637', 'sheet610714E3'], ['Sheet61062637', 'sheet610714E4'], ['Sheet61062637', 'sheet610714E5'], ['Sheet61062637', 'sheet61074B9E'], ['Sheet61062637', 'sheet61074B9F'], ['Sheet61062637', 'sheet61074BA0'], ['Sheet61062637', 'sheet61074BA1'], ['Sheet61062637', 'sheet61074BA2'], ['Sheet61062637', 'sheet61074BA3'], ['Sheet61062637', 'sheet61074BA4'], ['Sheet61062637', 'sheet61074BA5'], ['Sheet61062637', 'sheet61074BA6'], ['Sheet61062637', 'sheet61074BA7'], ['Sheet61062637', 'sheet61074BA8'], ['Sheet61062637', 'sheet61074BA9'], ['Sheet61062637', 'sheet61074BAA'], ['Sheet61062637', 'sheet61074BAB'], ['Sheet61062637', 'sheet610769A6'], ['Sheet61062637', 'sheet610769A7'], ['Sheet61062637', 'sheet610769A8'], ['Sheet61062637', 'sheet610769A9'], ['Sheet61062637', 'sheet610769AA'], ['Sheet61062637', 'sheet610769AB'], ['Sheet61062637', 'sheet610769AC'], ['Sheet61062637', 'sheet610769AE'], ['Sheet61062637', 'sheet610769AF'], ['Sheet61062637', 'sheet610769B0']]
+on level: ['Sheet61062637', 'sheet610769AD']
+with tracks=True, zone=False, text=True, containing=True, remove=True, locked=False
+08-04 17:34:46 root 267:updating GUI message: 'Preparing for replication'
+08-04 17:34:46 replicate_layout.replicatelayout 556:Getting the list of source footprints
+08-04 17:34:46 root 272:updating GUI with: 0
+08-04 17:34:46 replicate_layout.replicatelayout 560:Getting the list of all the remaining footprints
+08-04 17:34:46 replicate_layout.replicatelayout 564:Getting nets local to source footprints
+08-04 17:34:46 replicate_layout.replicatelayout 568:Getting source bounding box
+08-04 17:34:46 root 272:updating GUI with: 37
+08-04 17:34:46 replicate_layout.replicatelayout 572:Getting source tracks
+08-04 17:34:46 root 272:updating GUI with: 50
+08-04 17:34:46 replicate_layout.replicatelayout 576:Getting source zones
+08-04 17:34:46 root 272:updating GUI with: 62
+08-04 17:34:46 replicate_layout.replicatelayout 580:Getting source text items
+08-04 17:34:46 root 272:updating GUI with: 75
+08-04 17:34:46 replicate_layout.replicatelayout 584:Getting source text items
+08-04 17:34:46 root 272:updating GUI with: 87
+08-04 17:34:46 replicate_layout.replicatelayout 1022:Removing tracks and zones, before module placement
+08-04 17:34:46 root 267:updating GUI message: 'Removing zones and tracks'
+08-04 17:34:46 root 272:updating GUI with: 1
+08-04 17:34:46 root 272:updating GUI with: 2
+08-04 17:34:46 root 272:updating GUI with: 4
+08-04 17:34:46 root 272:updating GUI with: 5
+08-04 17:34:46 root 272:updating GUI with: 7
+08-04 17:34:47 root 272:updating GUI with: 8
+08-04 17:34:47 root 272:updating GUI with: 9
+08-04 17:34:47 root 272:updating GUI with: 11
+08-04 17:34:47 root 272:updating GUI with: 12
+08-04 17:34:47 root 272:updating GUI with: 14
+08-04 17:34:47 root 272:updating GUI with: 15
+08-04 17:34:47 root 272:updating GUI with: 16
+08-04 17:34:47 root 272:updating GUI with: 18
+08-04 17:34:47 root 272:updating GUI with: 19
+08-04 17:34:47 root 272:updating GUI with: 21
+08-04 17:34:47 root 272:updating GUI with: 22
+08-04 17:34:47 root 272:updating GUI with: 23
+08-04 17:34:47 root 272:updating GUI with: 25
+08-04 17:34:47 root 272:updating GUI with: 26
+08-04 17:34:47 root 272:updating GUI with: 28
+08-04 17:34:47 root 272:updating GUI with: 29
+08-04 17:34:47 root 272:updating GUI with: 30
+08-04 17:34:47 root 272:updating GUI with: 32
+08-04 17:34:47 root 272:updating GUI with: 33
+08-04 17:34:47 root 272:updating GUI with: 35
+08-04 17:34:47 root 272:updating GUI with: 36
+08-04 17:34:47 root 272:updating GUI with: 38
+08-04 17:34:47 root 272:updating GUI with: 39
+08-04 17:34:47 root 272:updating GUI with: 40
+08-04 17:34:47 root 272:updating GUI with: 42
+08-04 17:34:47 root 272:updating GUI with: 43
+08-04 17:34:48 root 272:updating GUI with: 45
+08-04 17:34:48 root 272:updating GUI with: 46
+08-04 17:34:48 root 272:updating GUI with: 47
+08-04 17:34:48 root 272:updating GUI with: 49
+08-04 17:34:48 root 272:updating GUI with: 50
+08-04 17:34:48 root 272:updating GUI with: 52
+08-04 17:34:48 root 272:updating GUI with: 53
+08-04 17:34:48 root 272:updating GUI with: 54
+08-04 17:34:48 root 272:updating GUI with: 56
+08-04 17:34:48 root 272:updating GUI with: 57
+08-04 17:34:48 root 272:updating GUI with: 59
+08-04 17:34:48 root 272:updating GUI with: 60
+08-04 17:34:48 root 272:updating GUI with: 61
+08-04 17:34:48 root 272:updating GUI with: 63
+08-04 17:34:48 root 272:updating GUI with: 64
+08-04 17:34:48 root 272:updating GUI with: 66
+08-04 17:34:48 root 272:updating GUI with: 67
+08-04 17:34:48 root 272:updating GUI with: 69
+08-04 17:34:48 root 272:updating GUI with: 70
+08-04 17:34:48 root 272:updating GUI with: 71
+08-04 17:34:48 root 272:updating GUI with: 73
+08-04 17:34:48 root 272:updating GUI with: 74
+08-04 17:34:48 root 272:updating GUI with: 76
+08-04 17:34:48 root 272:updating GUI with: 77
+08-04 17:34:48 root 272:updating GUI with: 78
+08-04 17:34:48 root 272:updating GUI with: 80
+08-04 17:34:48 root 272:updating GUI with: 81
+08-04 17:34:48 root 272:updating GUI with: 83
+08-04 17:34:48 root 272:updating GUI with: 84
+08-04 17:34:48 root 272:updating GUI with: 85
+08-04 17:34:48 root 272:updating GUI with: 87
+08-04 17:34:48 root 272:updating GUI with: 88
+08-04 17:34:48 root 272:updating GUI with: 90
+08-04 17:34:48 root 272:updating GUI with: 91
+08-04 17:34:48 root 272:updating GUI with: 94
+08-04 17:34:48 root 272:updating GUI with: 97
+08-04 17:34:48 root 267:updating GUI message: 'Replicating footprints'
+08-04 17:34:48 root 272:updating GUI with: 0
+08-04 17:34:48 replicate_layout.replicatelayout 590:Replicating footprints
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106780B']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106B8F6']
+08-04 17:34:48 root 272:updating GUI with: 2
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106B989']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106BA1C']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106BB22']
+08-04 17:34:48 root 272:updating GUI with: 6
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106BC64']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106BD15']
+08-04 17:34:48 root 272:updating GUI with: 9
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106C5FF']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106C600']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106C601']
+08-04 17:34:48 root 272:updating GUI with: 14
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106C602']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106C603']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106C604']
+08-04 17:34:48 root 272:updating GUI with: 17
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106C605']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106CEF0']
+08-04 17:34:48 root 272:updating GUI with: 21
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106CEF1']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106CEF2']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106EFBA']
+08-04 17:34:48 root 272:updating GUI with: 25
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106EFBB']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106EFBC']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106EFBD']
+08-04 17:34:48 root 272:updating GUI with: 29
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106EFBE']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106EFBF']
+08-04 17:34:48 root 272:updating GUI with: 32
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106EFC0']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106EFC1']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106EFC2']
+08-04 17:34:48 root 272:updating GUI with: 36
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106EFC3']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106EFC4']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106EFC5']
+08-04 17:34:48 root 272:updating GUI with: 40
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106EFC6']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106EFC7']
+08-04 17:34:48 root 272:updating GUI with: 43
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106EFC8']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106EFC9']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet6106EFCA']
+08-04 17:34:48 root 272:updating GUI with: 47
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610714D9']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610714DA']
+08-04 17:34:48 root 272:updating GUI with: 50
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610714DB']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610714DC']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610714DD']
+08-04 17:34:48 root 272:updating GUI with: 54
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610714DE']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610714DF']
+08-04 17:34:48 root 272:updating GUI with: 57
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610714E0']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610714E1']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610714E2']
+08-04 17:34:48 root 272:updating GUI with: 61
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610714E3']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610714E4']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610714E5']
+08-04 17:34:48 root 272:updating GUI with: 65
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet61074B9E']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet61074B9F']
+08-04 17:34:48 root 272:updating GUI with: 69
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet61074BA0']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet61074BA1']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet61074BA2']
+08-04 17:34:48 root 272:updating GUI with: 73
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet61074BA3']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet61074BA4']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet61074BA5']
+08-04 17:34:48 root 272:updating GUI with: 76
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet61074BA6']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet61074BA7']
+08-04 17:34:48 root 272:updating GUI with: 80
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet61074BA8']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet61074BA9']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet61074BAA']
+08-04 17:34:48 root 272:updating GUI with: 84
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet61074BAB']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610769A6']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610769A7']
+08-04 17:34:48 root 272:updating GUI with: 88
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610769A8']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610769A9']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610769AA']
+08-04 17:34:48 root 272:updating GUI with: 92
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610769AB']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610769AC']
+08-04 17:34:48 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610769AE']
+08-04 17:34:48 root 272:updating GUI with: 97
+08-04 17:34:49 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610769AF']
+08-04 17:34:49 replicate_layout.replicatelayout 596:Replicating footprints on sheet ['Sheet61062637', 'sheet610769B0']
+08-04 17:34:49 replicate_layout.replicatelayout 1030:Removing tracks and zones, after module placement
+08-04 17:34:49 root 267:updating GUI message: 'Removing zones and tracks'
+08-04 17:34:49 root 272:updating GUI with: 0
+08-04 17:34:49 root 272:updating GUI with: 2
+08-04 17:34:49 root 272:updating GUI with: 7
+08-04 17:34:49 root 272:updating GUI with: 11
+08-04 17:34:49 root 272:updating GUI with: 15
+08-04 17:34:49 root 272:updating GUI with: 19
+08-04 17:34:49 root 272:updating GUI with: 23
+08-04 17:34:49 root 272:updating GUI with: 28
+08-04 17:34:49 root 272:updating GUI with: 32
+08-04 17:34:49 root 272:updating GUI with: 36
+08-04 17:34:49 root 272:updating GUI with: 39
+08-04 17:34:49 root 272:updating GUI with: 43
+08-04 17:34:49 root 272:updating GUI with: 47
+08-04 17:34:49 root 272:updating GUI with: 52
+08-04 17:34:49 root 272:updating GUI with: 56
+08-04 17:34:49 root 272:updating GUI with: 60
+08-04 17:34:49 root 272:updating GUI with: 64
+08-04 17:34:49 root 272:updating GUI with: 69
+08-04 17:34:49 root 272:updating GUI with: 73
+08-04 17:34:49 root 272:updating GUI with: 77
+08-04 17:34:49 root 272:updating GUI with: 81
+08-04 17:34:49 root 272:updating GUI with: 85
+08-04 17:34:49 root 272:updating GUI with: 90
+08-04 17:34:49 root 272:updating GUI with: 94
+08-04 17:34:49 root 272:updating GUI with: 98
+08-04 17:34:49 root 267:updating GUI message: 'Replicating tracks'
+08-04 17:34:49 replicate_layout.replicatelayout 720:Replicating tracks
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106780B']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106B8F6']
+08-04 17:34:49 root 272:updating GUI with: 1
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106B989']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106BA1C']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106BB22']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106BC64']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106BD15']
+08-04 17:34:49 root 272:updating GUI with: 8
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106C5FF']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106C600']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106C601']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106C602']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106C603']
+08-04 17:34:49 root 272:updating GUI with: 15
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106C604']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106C605']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106CEF0']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106CEF1']
+08-04 17:34:49 root 272:updating GUI with: 22
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106CEF2']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106EFBA']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106EFBB']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106EFBC']
+08-04 17:34:49 root 272:updating GUI with: 28
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106EFBD']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106EFBE']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106EFBF']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106EFC0']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106EFC1']
+08-04 17:34:49 root 272:updating GUI with: 33
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106EFC2']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106EFC3']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106EFC4']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106EFC5']
+08-04 17:34:49 root 272:updating GUI with: 39
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106EFC6']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106EFC7']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106EFC8']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106EFC9']
+08-04 17:34:49 root 272:updating GUI with: 45
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet6106EFCA']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610714D9']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610714DA']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610714DB']
+08-04 17:34:49 root 272:updating GUI with: 50
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610714DC']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610714DD']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610714DE']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610714DF']
+08-04 17:34:49 root 272:updating GUI with: 56
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610714E0']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610714E1']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610714E2']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610714E3']
+08-04 17:34:49 root 272:updating GUI with: 62
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610714E4']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610714E5']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet61074B9E']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet61074B9F']
+08-04 17:34:49 root 272:updating GUI with: 67
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet61074BA0']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet61074BA1']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet61074BA2']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet61074BA3']
+08-04 17:34:49 root 272:updating GUI with: 73
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet61074BA4']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet61074BA5']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet61074BA6']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet61074BA7']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet61074BA8']
+08-04 17:34:49 root 272:updating GUI with: 80
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet61074BA9']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet61074BAA']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet61074BAB']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610769A6']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610769A7']
+08-04 17:34:49 root 272:updating GUI with: 87
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610769A8']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610769A9']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610769AA']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610769AB']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610769AC']
+08-04 17:34:49 root 272:updating GUI with: 94
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610769AE']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610769AF']
+08-04 17:34:49 replicate_layout.replicatelayout 726:Replicating tracks on sheet ['Sheet61062637', 'sheet610769B0']
+08-04 17:34:49 root 267:updating GUI message: 'Replicating text'
+08-04 17:34:49 replicate_layout.replicatelayout 837:Replicating text
+08-04 17:34:49 root 272:updating GUI with: 0
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106780B']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106B8F6']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106B989']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106BA1C']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106BB22']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106BC64']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106BD15']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106C5FF']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106C600']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106C601']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106C602']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106C603']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106C604']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106C605']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106CEF0']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106CEF1']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106CEF2']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106EFBA']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106EFBB']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106EFBC']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106EFBD']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106EFBE']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106EFBF']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106EFC0']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106EFC1']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106EFC2']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106EFC3']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106EFC4']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106EFC5']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106EFC6']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106EFC7']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106EFC8']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106EFC9']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet6106EFCA']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610714D9']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610714DA']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610714DB']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610714DC']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610714DD']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610714DE']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610714DF']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610714E0']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610714E1']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610714E2']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610714E3']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610714E4']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610714E5']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet61074B9E']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet61074B9F']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet61074BA0']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet61074BA1']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet61074BA2']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet61074BA3']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet61074BA4']
+08-04 17:34:49 root 272:updating GUI with: 76
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet61074BA5']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet61074BA6']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet61074BA7']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet61074BA8']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet61074BA9']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet61074BAA']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet61074BAB']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610769A6']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610769A7']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610769A8']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610769A9']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610769AA']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610769AB']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610769AC']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610769AE']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610769AF']
+08-04 17:34:49 replicate_layout.replicatelayout 844:Replicating text on sheet ['Sheet61062637', 'sheet610769B0']
+08-04 17:34:49 root 267:updating GUI message: 'Replicating drawings'
+08-04 17:34:49 replicate_layout.replicatelayout 868:Replicating drawings
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106780B']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106B8F6']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106B989']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106BA1C']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106BB22']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106BC64']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106BD15']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106C5FF']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106C600']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106C601']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106C602']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106C603']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106C604']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106C605']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106CEF0']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106CEF1']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106CEF2']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106EFBA']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106EFBB']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106EFBC']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106EFBD']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106EFBE']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106EFBF']
+08-04 17:34:49 root 272:updating GUI with: 32
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106EFC0']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106EFC1']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106EFC2']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106EFC3']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106EFC4']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106EFC5']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106EFC6']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106EFC7']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106EFC8']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106EFC9']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet6106EFCA']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610714D9']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610714DA']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610714DB']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610714DC']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610714DD']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610714DE']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610714DF']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610714E0']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610714E1']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610714E2']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610714E3']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610714E4']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610714E5']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet61074B9E']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet61074B9F']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet61074BA0']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet61074BA1']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet61074BA2']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet61074BA3']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet61074BA4']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet61074BA5']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet61074BA6']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet61074BA7']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet61074BA8']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet61074BA9']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet61074BAA']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet61074BAB']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610769A6']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610769A7']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610769A8']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610769A9']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610769AA']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610769AB']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610769AC']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610769AE']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610769AF']
+08-04 17:34:49 replicate_layout.replicatelayout 874:Replicating drawings on sheet ['Sheet61062637', 'sheet610769B0']
+08-04 17:34:49 replicate_layout.action_replicate_layout 207:Replication complete

@@ -1,0 +1,651 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 75
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 610AEC8B
+P 10150 4050
+F 0 "H1" H 10250 4099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10250 4008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom" H 10150 4050 50  0001 C CNN
+F 3 "~" H 10150 4050 50  0001 C CNN
+	1    10150 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 610AF591
+P 10150 4500
+F 0 "H2" H 10250 4549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10250 4458 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom" H 10150 4500 50  0001 C CNN
+F 3 "~" H 10150 4500 50  0001 C CNN
+	1    10150 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H4
+U 1 1 610AF811
+P 10600 4500
+F 0 "H4" H 10700 4549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10700 4458 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom" H 10600 4500 50  0001 C CNN
+F 3 "~" H 10600 4500 50  0001 C CNN
+	1    10600 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 610AFB47
+P 11000 4500
+F 0 "H6" H 11100 4549 50  0000 L CNN
+F 1 "MountingHole_Pad" H 11100 4458 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom" H 11000 4500 50  0001 C CNN
+F 3 "~" H 11000 4500 50  0001 C CNN
+	1    11000 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H3
+U 1 1 610AFEEF
+P 10600 4050
+F 0 "H3" H 10700 4099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 10700 4008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom" H 10600 4050 50  0001 C CNN
+F 3 "~" H 10600 4050 50  0001 C CNN
+	1    10600 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 610B0347
+P 11000 4050
+F 0 "H5" H 11100 4099 50  0000 L CNN
+F 1 "MountingHole_Pad" H 11100 4008 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_ISO7380_Pad_TopBottom" H 11000 4050 50  0001 C CNN
+F 3 "~" H 11000 4050 50  0001 C CNN
+	1    11000 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10150 4150 10150 4275
+Wire Wire Line
+	11000 4150 11000 4275
+Wire Wire Line
+	11000 4275 10600 4275
+Connection ~ 11000 4275
+Wire Wire Line
+	11000 4275 11000 4400
+Connection ~ 10150 4275
+Wire Wire Line
+	10150 4275 10150 4400
+Wire Wire Line
+	10600 4150 10600 4275
+Connection ~ 10600 4275
+Wire Wire Line
+	10600 4275 10150 4275
+Wire Wire Line
+	10600 4275 10600 4400
+Wire Wire Line
+	10150 4275 9950 4275
+$Comp
+L Device:C C4
+U 1 1 610F98CA
+P 9725 4425
+F 0 "C4" V 9473 4425 50  0000 C CNN
+F 1 "C" V 9564 4425 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm" H 9763 4275 50  0001 C CNN
+F 3 "~" H 9725 4425 50  0001 C CNN
+	1    9725 4425
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GNDREF #PWR0104
+U 1 1 610FB4FC
+P 9475 4300
+F 0 "#PWR0104" H 9475 4050 50  0001 C CNN
+F 1 "GNDREF" H 9480 4127 50  0000 C CNN
+F 2 "" H 9475 4300 50  0001 C CNN
+F 3 "" H 9475 4300 50  0001 C CNN
+	1    9475 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9575 4425 9550 4425
+$Comp
+L Device:C C5
+U 1 1 6110A7CC
+P 9725 4125
+F 0 "C5" V 9473 4125 50  0000 C CNN
+F 1 "C" V 9564 4125 50  0000 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" H 9763 3975 50  0001 C CNN
+F 3 "~" H 9725 4125 50  0001 C CNN
+	1    9725 4125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9875 4125 9950 4125
+Wire Wire Line
+	9950 4125 9950 4275
+Wire Wire Line
+	9950 4275 9950 4425
+Wire Wire Line
+	9950 4425 9875 4425
+Connection ~ 9950 4275
+Wire Wire Line
+	9575 4125 9550 4125
+Wire Wire Line
+	9550 4125 9550 4300
+Wire Wire Line
+	9550 4300 9475 4300
+Connection ~ 9550 4300
+Wire Wire Line
+	9550 4300 9550 4425
+Text Notes 5275 5350 0    50   ~ 0
+Orientation: Usb on the top
+Text Notes 2300 4825 0    50   ~ 0
+Extra
+Text Notes 5075 2450 0    50   ~ 0
+Power
+Connection ~ 5300 2650
+Wire Wire Line
+	2600 2650 5300 2650
+Wire Wire Line
+	2600 3650 2600 2650
+Wire Wire Line
+	2500 3650 2600 3650
+Connection ~ 5300 2750
+Wire Wire Line
+	2550 2750 5300 2750
+Wire Wire Line
+	2550 3550 2550 2750
+Wire Wire Line
+	2500 3550 2550 3550
+Connection ~ 5300 2850
+Wire Wire Line
+	2500 2850 5300 2850
+Wire Wire Line
+	2500 3450 2500 2850
+$Comp
+L Connector:Conn_01x13_Male J1
+U 1 1 6127B27C
+P 2300 4050
+F 0 "J1" H 2408 4831 50  0000 C CNN
+F 1 "Conn_01x13_Male" H 2408 4740 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x13_P2.54mm_Vertical" H 2300 4050 50  0001 C CNN
+F 3 "~" H 2300 4050 50  0001 C CNN
+	1    2300 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2650 3750 2500 3750
+Wire Wire Line
+	2775 3850 2500 3850
+Wire Wire Line
+	2900 3950 2500 3950
+Wire Wire Line
+	3025 4050 2500 4050
+Wire Wire Line
+	2500 4650 4750 4650
+Wire Wire Line
+	2500 4550 4750 4550
+Wire Wire Line
+	2500 4450 4750 4450
+Wire Wire Line
+	2500 4350 3350 4350
+Wire Wire Line
+	3150 4150 2500 4150
+Wire Wire Line
+	2500 4250 3250 4250
+Wire Wire Line
+	2650 3150 2650 3750
+Wire Wire Line
+	4750 3150 2650 3150
+Wire Wire Line
+	2775 3250 2775 3850
+Wire Wire Line
+	4750 3250 2775 3250
+Wire Wire Line
+	2900 3350 2900 3950
+Wire Wire Line
+	4750 3350 2900 3350
+Wire Wire Line
+	3025 3450 3025 4050
+Wire Wire Line
+	4750 3450 3025 3450
+Wire Wire Line
+	3150 3550 3150 4150
+Wire Wire Line
+	4750 3550 3150 3550
+Wire Wire Line
+	3250 3650 4750 3650
+Wire Wire Line
+	3250 4250 3250 3650
+Wire Wire Line
+	3350 3750 3350 4350
+Wire Wire Line
+	4750 3750 3350 3750
+$Comp
+L power:+5V #PWR0103
+U 1 1 61176BEA
+P 6300 2400
+F 0 "#PWR0103" H 6300 2250 50  0001 C CNN
+F 1 "+5V" H 6315 2573 50  0000 C CNN
+F 2 "" H 6300 2400 50  0001 C CNN
+F 3 "" H 6300 2400 50  0001 C CNN
+	1    6300 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 6150 2750
+$Comp
+L power:+3V3 #PWR0102
+U 1 1 6117606F
+P 6150 2750
+F 0 "#PWR0102" H 6150 2600 50  0001 C CNN
+F 1 "+3V3" H 6165 2923 50  0000 C CNN
+F 2 "" H 6150 2750 50  0001 C CNN
+F 3 "" H 6150 2750 50  0001 C CNN
+	1    6150 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2925 5750 2925
+Wire Wire Line
+	5350 2850 5300 2850
+Wire Wire Line
+	5350 2925 5350 2850
+Wire Wire Line
+	5375 2650 5300 2650
+Wire Wire Line
+	5375 2400 5375 2650
+Wire Wire Line
+	5300 2750 6150 2750
+$Comp
+L Connector:Conn_01x03_Male J3
+U 1 1 6115BC06
+P 5100 2750
+F 0 "J3" H 5208 3031 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 5208 2940 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 5100 2750 50  0001 C CNN
+F 3 "~" H 5100 2750 50  0001 C CNN
+	1    5100 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 2925 5750 3050
+Connection ~ 5750 2925
+Connection ~ 6300 2400
+Wire Wire Line
+	6300 2400 5375 2400
+Wire Wire Line
+	4575 3900 4575 3950
+Wire Wire Line
+	3625 3900 4575 3900
+Wire Wire Line
+	3600 3850 4750 3850
+Wire Wire Line
+	3600 4250 3600 3850
+Wire Wire Line
+	3700 4250 3600 4250
+Wire Wire Line
+	4575 3950 4750 3950
+Wire Wire Line
+	3625 4150 3625 3900
+Wire Wire Line
+	3700 4150 3625 4150
+Wire Wire Line
+	4475 4050 4750 4050
+Wire Wire Line
+	4475 3925 4475 4050
+Wire Wire Line
+	3650 3925 4475 3925
+Wire Wire Line
+	3650 4050 3650 3925
+Wire Wire Line
+	3700 4050 3650 4050
+Wire Wire Line
+	4375 4050 4300 4050
+Wire Wire Line
+	4375 4150 4375 4050
+Wire Wire Line
+	4750 4150 4375 4150
+Wire Wire Line
+	4300 4250 4750 4250
+$Comp
+L Device:Rotary_Encoder_Switch SW1
+U 1 1 61142EC3
+P 4000 4150
+F 0 "SW1" V 4046 3920 50  0000 R CNN
+F 1 "Rotary_Encoder_Switch" V 3955 3920 50  0000 R CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles" H 3850 4310 50  0001 C CNN
+F 3 "~" H 4000 4410 50  0001 C CNN
+	1    4000 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4575 4800 4575 4850
+Wire Wire Line
+	3625 4800 4575 4800
+Wire Wire Line
+	3600 4750 4750 4750
+Wire Wire Line
+	3600 5150 3600 4750
+Wire Wire Line
+	3700 5150 3600 5150
+Wire Wire Line
+	4575 4850 4750 4850
+Wire Wire Line
+	3625 5050 3625 4800
+Wire Wire Line
+	3700 5050 3625 5050
+Wire Wire Line
+	4475 4950 4750 4950
+Wire Wire Line
+	4475 4825 4475 4950
+Wire Wire Line
+	3650 4825 4475 4825
+Wire Wire Line
+	3650 4950 3650 4825
+Wire Wire Line
+	3700 4950 3650 4950
+Wire Wire Line
+	4375 4950 4300 4950
+Wire Wire Line
+	4375 5050 4375 4950
+Wire Wire Line
+	4750 5050 4375 5050
+Wire Wire Line
+	4300 5150 4750 5150
+Wire Wire Line
+	4675 5550 7600 5550
+Wire Wire Line
+	4675 5250 4750 5250
+Wire Wire Line
+	4675 5550 4675 5250
+Wire Wire Line
+	7600 4600 7700 4600
+Wire Wire Line
+	7600 5550 7600 4600
+Wire Wire Line
+	4700 5450 4700 5350
+Wire Wire Line
+	7575 5450 4700 5450
+Wire Wire Line
+	4700 5350 4750 5350
+Wire Wire Line
+	7575 4500 7575 5450
+Wire Wire Line
+	7700 4500 7575 4500
+Wire Wire Line
+	7550 5350 6775 5350
+Wire Wire Line
+	7550 4400 7550 5350
+Wire Wire Line
+	7700 4400 7550 4400
+Wire Wire Line
+	7525 5250 6775 5250
+Wire Wire Line
+	7525 4300 7525 5250
+Wire Wire Line
+	7700 4300 7525 4300
+Wire Wire Line
+	7500 5150 6775 5150
+Wire Wire Line
+	7500 4200 7500 5150
+Wire Wire Line
+	7700 4200 7500 4200
+Wire Wire Line
+	7475 5050 6775 5050
+Wire Wire Line
+	7475 4100 7475 5050
+Wire Wire Line
+	7700 4100 7475 4100
+Wire Wire Line
+	7450 4950 6775 4950
+Wire Wire Line
+	7450 4000 7450 4950
+Wire Wire Line
+	7700 4000 7450 4000
+Wire Wire Line
+	7425 4850 6775 4850
+Wire Wire Line
+	7425 3900 7425 4850
+Wire Wire Line
+	7700 3900 7425 3900
+Wire Wire Line
+	7400 4750 6775 4750
+Wire Wire Line
+	7400 3800 7400 4750
+Wire Wire Line
+	7700 3800 7400 3800
+Wire Wire Line
+	7375 4650 6775 4650
+Wire Wire Line
+	7375 3700 7375 4650
+Wire Wire Line
+	7700 3700 7375 3700
+Wire Wire Line
+	7350 3600 7700 3600
+Wire Wire Line
+	7350 4550 7350 3600
+Wire Wire Line
+	6775 4550 7350 4550
+Wire Wire Line
+	7325 4450 6775 4450
+Wire Wire Line
+	7325 3500 7325 4450
+Wire Wire Line
+	7700 3500 7325 3500
+Wire Wire Line
+	7300 3400 7700 3400
+Wire Wire Line
+	7300 4250 7300 3400
+Wire Wire Line
+	6775 4250 7300 4250
+Wire Wire Line
+	7275 4150 6775 4150
+Wire Wire Line
+	7275 3300 7275 4150
+Wire Wire Line
+	7700 3300 7275 3300
+Wire Wire Line
+	7250 3200 7700 3200
+Wire Wire Line
+	7250 4050 7250 3200
+Wire Wire Line
+	6775 4050 7250 4050
+Wire Wire Line
+	7225 3950 6775 3950
+Wire Wire Line
+	7225 3100 7225 3950
+Wire Wire Line
+	7700 3100 7225 3100
+Wire Wire Line
+	7200 3850 6775 3850
+Wire Wire Line
+	7200 3000 7200 3850
+Wire Wire Line
+	7700 3000 7200 3000
+Wire Wire Line
+	7175 3750 6775 3750
+Wire Wire Line
+	7175 2900 7175 3750
+Wire Wire Line
+	7700 2900 7175 2900
+Wire Wire Line
+	7150 3650 6775 3650
+Wire Wire Line
+	7150 2800 7150 3650
+Wire Wire Line
+	7700 2800 7150 2800
+Wire Wire Line
+	7125 3550 6775 3550
+Wire Wire Line
+	7125 2700 7125 3550
+Wire Wire Line
+	7700 2700 7125 2700
+Wire Wire Line
+	7100 3450 6775 3450
+Wire Wire Line
+	7100 2600 7100 3450
+Wire Wire Line
+	7700 2600 7100 2600
+Wire Wire Line
+	7075 3350 6775 3350
+Wire Wire Line
+	7075 2575 7075 3350
+Wire Wire Line
+	7500 2575 7075 2575
+Wire Wire Line
+	7500 2500 7500 2575
+Wire Wire Line
+	7700 2500 7500 2500
+Connection ~ 5750 4350
+Wire Wire Line
+	5750 4350 5750 4575
+$Comp
+L power:GNDREF #PWR0101
+U 1 1 610C03EC
+P 5750 4575
+F 0 "#PWR0101" H 5750 4325 50  0001 C CNN
+F 1 "GNDREF" H 5755 4402 50  0000 C CNN
+F 2 "" H 5750 4575 50  0001 C CNN
+F 3 "" H 5750 4575 50  0001 C CNN
+	1    5750 4575
+	1    0    0    -1  
+$EndComp
+Connection ~ 7650 2300
+Wire Wire Line
+	5750 1975 5750 2925
+Wire Wire Line
+	7650 1975 5750 1975
+Wire Wire Line
+	7650 2300 7650 1975
+Wire Wire Line
+	7575 2300 7650 2300
+Wire Wire Line
+	6300 2400 6725 2400
+Wire Wire Line
+	6300 2400 6300 3050
+Wire Wire Line
+	6150 3250 6775 3250
+Wire Wire Line
+	5750 3150 6775 3150
+Wire Wire Line
+	6300 3050 6775 3050
+Wire Wire Line
+	5750 4350 6775 4350
+Wire Wire Line
+	4750 4350 5625 4350
+Wire Wire Line
+	4750 3050 5750 3050
+Connection ~ 5750 3050
+Connection ~ 6150 3250
+Wire Wire Line
+	6150 3250 6150 2750
+Wire Wire Line
+	5625 3250 6150 3250
+Wire Wire Line
+	5625 4350 5625 3250
+Connection ~ 5750 3150
+Wire Wire Line
+	5750 4350 5750 3150
+Wire Wire Line
+	5750 3050 5750 3150
+$Comp
+L Connector:Conn_01x24_Female J2
+U 1 1 61080AE2
+P 4950 4150
+F 0 "J2" H 4978 4126 50  0000 L CNN
+F 1 "Conn_01x24_Female" H 4978 4035 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x24_P2.54mm_Vertical" H 4950 4150 50  0001 C CNN
+F 3 "~" H 4950 4150 50  0001 C CNN
+	1    4950 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x24_Female J4
+U 1 1 6107E82E
+P 6575 4150
+F 0 "J4" H 6467 5435 50  0000 C CNN
+F 1 "Conn_01x24_Female" H 6467 5344 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x24_P2.54mm_Vertical" H 6575 4150 50  0001 C CNN
+F 3 "~" H 6575 4150 50  0001 C CNN
+	1    6575 4150
+	-1   0    0    -1  
+$EndComp
+$Sheet
+S 6725 2250 850  200 
+U 6111AC86
+F0 "Sheet6111AC85" 50
+F1 "Power_LED.sch" 50
+F2 "Vbus_5V" U L 6725 2400 50 
+F3 "V_LED" U R 7575 2400 50 
+F4 "GND" U R 7575 2300 50 
+$EndSheet
+$Comp
+L Device:Rotary_Encoder_Switch SW2
+U 1 1 610EBD0C
+P 4000 5050
+F 0 "SW2" V 4046 4820 50  0000 R CNN
+F 1 "Rotary_Encoder_Switch" V 3955 4820 50  0000 R CNN
+F 2 "Rotary_Encoder:RotaryEncoder_Alps_EC12E-Switch_Vertical_H20mm_CircularMountingHoles" H 3850 5210 50  0001 C CNN
+F 3 "~" H 4000 5310 50  0001 C CNN
+	1    4000 5050
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 7700 2400 525  2500
+U 61062638
+F0 "Sheet61062637" 50
+F1 "Keyboard_Matrix.sch" 50
+F2 "C_0" U L 7700 2800 50 
+F3 "C_1" U L 7700 2700 50 
+F4 "C_2" U L 7700 2600 50 
+F5 "C_3" U L 7700 2500 50 
+F6 "C_4" U L 7700 3300 50 
+F7 "C_5" U L 7700 3200 50 
+F8 "C_6" U L 7700 3100 50 
+F9 "C_7" U L 7700 3000 50 
+F10 "C_8" U L 7700 3500 50 
+F11 "C_9" U L 7700 3600 50 
+F12 "C_10" U L 7700 3700 50 
+F13 "C_11" U L 7700 3800 50 
+F14 "C_12" U L 7700 4000 50 
+F15 "C_13" U L 7700 4300 50 
+F16 "C_14" U L 7700 4200 50 
+F17 "C_15" U L 7700 4100 50 
+F18 "C_16" U L 7700 4500 50 
+F19 "R_0" U L 7700 2900 50 
+F20 "R_1" U L 7700 3400 50 
+F21 "R_3" U L 7700 4400 50 
+F22 "R_2" U L 7700 3900 50 
+F23 "R_4" U L 7700 4600 50 
+F24 "LED+" U L 7700 4700 50 
+F25 "LED-" U L 7700 4800 50 
+$EndSheet
+Wire Wire Line
+	7700 4700 8425 4700
+Wire Wire Line
+	8425 4700 8425 2400
+Wire Wire Line
+	7575 2400 8425 2400
+Wire Wire Line
+	8550 2300 8550 4800
+Wire Wire Line
+	8550 4800 7700 4800
+Wire Wire Line
+	7650 2300 8550 2300
+$EndSCHEMATC

@@ -1,0 +1,6 @@
+08-03 21:29:07 net2net_min_distance.action_net2net_min_distance 84:Plugin executed on: 'linux'
+08-03 21:29:07 net2net_min_distance.action_net2net_min_distance 85:Plugin executed with python version: '3.8.8 (default, Nov 10 2011, 15:00:00) \n[GCC 10.2.0]'
+08-03 21:29:07 net2net_min_distance.action_net2net_min_distance 86:KiCad build version: 5.1.10
+08-03 21:29:07 net2net_min_distance.action_net2net_min_distance 87:Net2net distance plugin version: 16 started
+08-03 21:29:07 net2net_min_distance.net2net_distance 110:Net2net getting min distance between +5V and GNDREF
+08-03 21:29:07 net2net_min_distance.net2net_distance 122:Found 1 tracks on +5V and 1tracks on GNDREF
